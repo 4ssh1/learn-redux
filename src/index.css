@@ -13,3 +13,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.post {
+  border: #242424;
+  border-radius: 10px;
+  padding: 4px 10px;
+  border: 1px solid wheat;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+input, textarea, button {
+  padding: 10px 5px;
+  width: 50%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+

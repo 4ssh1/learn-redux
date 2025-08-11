@@ -4,6 +4,11 @@ export interface Post{
     content: string;
 }
 
-export interface Form extends HTMLFormControlsCollection {
-    
+export interface FormField extends HTMLFormControlsCollection {
+    title: HTMLInputElement
+    content: HTMLTextAreaElement
+}
+
+export interface FormElement extends HTMLFormElement {
+    readonly elements: FormField
 }
